@@ -2,16 +2,16 @@
 
 ## Overview
 
-Docker images of .NET Core.
-
-## Description
-
-You can build many  types of apps with .NET, such as cloud,  IoT and games. Your
-app can  run on Windows,  Linux, Android, macOS, and  iOS. There are  free tools
-that you  can use  to build apps  or games.  You can deploy  them on  servers or
+You can build many types of apps with  .NET, such as cloud, IoT and games. Your
+app can run  on Windows, Linux, Android,  macOS, and iOS. There  are free tools
+that you  can use to build  apps or games.  You  can deploy them on  servers or
 desktops or publish them to app stores. It's accessible to students.
 
 [microsoft.com/net/core](https://www.microsoft.com/net/core)
+
+## Description
+
+Docker images of .NET Core.
 
 ## Tags
 
