@@ -12,12 +12,12 @@
 # OTHER  TORTIOUS ACTION,  ARISING  OUT OF  OR  IN CONNECTION  WITH  THE USE  OR
 # PERFORMANCE OF THIS SOFTWARE.
 
-FROM rockyluke/debian:jessie
+FROM rockyluke/debian:stretch
 MAINTAINER rockyluke
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update -qq && \
+RUN apt-get update  -qq && \
     apt-get upgrade -qq -y && \
     apt-get install -qq -y \
       gettext \
