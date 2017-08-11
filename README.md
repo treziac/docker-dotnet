@@ -35,6 +35,8 @@ Soon :)
 
 Feel free to contribute on GitHub.
 
+## Miscellaneous
+
 ```
     ╚⊙ ⊙╝
   ╚═(███)═╝
