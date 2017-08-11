@@ -1,4 +1,4 @@
-# docker-dotnet ![License badge][license-img] [![Docker badge][docker-img]][docker-url]
+# docker-dotnet ![License][license-img] [![Docker][docker-img]][docker-url]
 
 ## Overview
 
@@ -19,7 +19,15 @@ Supported tags and respective Dockerfile links.
 
 - 1.1, latest ([Dockerfile][1])
 
+## Setup
+
+Soon :)
+
 ## Usage
+
+Soon :)
+
+## Limitations
 
 Soon :)
 

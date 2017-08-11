@@ -15,8 +15,8 @@
 # PERFORMANCE OF THIS SOFTWARE.
 
 # .NET Core latest
-docker build -t ${USER}/dotnet:latest .
+docker build --force-rm --tag ${USER}/dotnet:latest .
 
 # .NET Core 1.1
-docker build -t ${USER}/dotnet:1.1 1.1
+docker build --force-rm --tag ${USER}/dotnet:1.1 1.1
 # EOF
