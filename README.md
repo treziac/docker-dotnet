@@ -17,7 +17,8 @@ Docker images of .NET Core.
 
 Supported tags and respective Dockerfile links.
 
-- 1.1, latest ([Dockerfile][1])
+- 1.1 ([Dockerfile][1])
+- 2.0.0, latest ([Dockerfile][2])
 
 ## Setup
 
@@ -48,6 +49,7 @@ Feel free to contribute on GitHub.
 ```
 
 [1]: https://github.com/rockyluke/docker-dotnet/blob/master/1.1/Dockerfile
+[2]: https://github.com/rockyluke/docker-dotnet/blob/master/2.0.0/Dockerfile
 [license-img]: https://img.shields.io/badge/license-ISC-blue.svg
 [docker-img]: https://img.shields.io/docker/pulls/rockyluke/dotnet.svg
 [docker-url]: https://registry.hub.docker.com/u/rockyluke/dotnet
