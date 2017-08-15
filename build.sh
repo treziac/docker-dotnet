@@ -19,4 +19,13 @@ docker build --force-rm --tag ${USER}/dotnet:latest .
 
 # .NET Core 1.1
 docker build --force-rm --tag ${USER}/dotnet:1.1 1.1
+
+# .NET Core 2.0.0
+docker build --force-rm --tag ${USER}/dotnet:2.0.0 2.0.0
+
+# Tests
+clear
+echo -n 'latest: ' && docker run --rm ${USER}/dotnet:latest /usr/local/bin/dotnet --version
+echo -n '1.1: '    && docker run --rm ${USER}/dotnet:1.1    /usr/local/bin/dotnet --version
+echo -n '2.0.0: '  && docker run --rm ${USER}/dotnet:2.0.0  /usr/local/bin/dotnet --version
 # EOF

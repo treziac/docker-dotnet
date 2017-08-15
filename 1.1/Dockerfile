@@ -12,7 +12,7 @@
 # OTHER  TORTIOUS ACTION,  ARISING  OUT OF  OR  IN CONNECTION  WITH  THE USE  OR
 # PERFORMANCE OF THIS SOFTWARE.
 
-FROM rockyluke/debian:stretch
+FROM rockyluke/debian:jessie
 MAINTAINER rockyluke
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -21,6 +21,9 @@ RUN apt-get update  -qq && \
     apt-get upgrade -qq -y && \
     apt-get install -qq -y \
       gettext \
+      libicu52 \
+      liblttng-ust-ctl2 \
+      liblttng-ust0 \
       libunwind8 && \
     apt-clean
 
